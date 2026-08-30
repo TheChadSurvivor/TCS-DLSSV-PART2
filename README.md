@@ -12,17 +12,18 @@ Stock *Star Wars: Knights of the Old Republic* (and K2) **OpenGL ReShade** pack 
 
 ## Installation
 
-1. Install **ReShade with add-on support**. Sell your soul for a good NVIDIA GPU (**50 series highly recommended**).
+1. Install **ReShade with add-on support**. Sell your soul for a good NVIDIA GPU (**50 series highly recommended**).  
+   [ReShade Home](https://reshade.me)
 2. Apply any **widescreen patches** for KotOR 1.
-3. Install **Part 1**. Choose the pack for your card and drop the folders inside `contents` into your game folder.  
+3. Install **Part 1**. Choose the pack for your card and drop the contents inside **"Move Inside Content to Game Folder"** into your game folder.  
    https://www.nexusmods.com/profile/TheChadSurvivor
-4. Install **Part 2** (this). Choose the pack for your card and drop the folders inside `contents` into your game folder.
-5. Run the game. For **KotOR 2**, the resolution can look wrong on first launch — set it again in Options (e.g. 1080p).  
+4. Install **Part 2**. Choose the pack for your card and drop the contents inside **"Move Inside Content to Game Folder"** into your game folder.
+5. Run the game. For **KotOR 2**, the resolution can look wrong at first: set it again in Options (e.g. 1080p).  
    A small window will pop up. That is the **feeder** (another layer). Leave it.
 6. Open the ReShade menu (**Home**), go to **DLSS 5**, enable it and **neural rendering**.
 7. Done. Adjust it to your heart's content.
 
-Please note: **RTX 30 series and below will run very, very slow (around 1 FPS).**
+Please note: if you have a **30 series GPU or below**, this will run very, very slow (like **1 FPS**).
 
 Download **one** zip from [Releases](https://github.com/TheChadSurvivor/TCS-DLSSV-PART2/releases):
 
