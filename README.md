@@ -2,25 +2,36 @@
 
 ## Required
 
-1. **Part 1 (Nexus)** — this is Part 2. Get Part 1 from my profile first:  
-   https://www.nexusmods.com/profile/TheChadSurvivor
-2. **NVIDIA RTX 40 or 50 series** — RTX 30 (Ampere) has **extreme lag**. Use the 40/50 zip.
-3. **Install ReShade first** (OpenGL, add-on support), then this pack.
+1. **ReShade with add-on support**, and a decent NVIDIA GPU (**RTX 50 series highly recommended**).
+2. **Part 1** from my Nexus profile: https://www.nexusmods.com/profile/TheChadSurvivor
+3. **RTX 40 or 50 series** — RTX 30 and below run at about **1 FPS**.
 
 ---
 
 Stock *Star Wars: Knights of the Old Republic* (and K2) **OpenGL ReShade** pack for DLSS 5 neural rendering. Not reone.
+
+## Installation
+
+1. Install **ReShade with add-on support**. Sell your soul for a good NVIDIA GPU (**50 series highly recommended**).
+2. Apply any **widescreen patches** for KotOR 1.
+3. Install **Part 1**. Choose the pack for your card and drop the folders inside `contents` into your game folder.  
+   https://www.nexusmods.com/profile/TheChadSurvivor
+4. Install **Part 2** (this). Choose the pack for your card and drop the folders inside `contents` into your game folder.
+5. Run the game. For **KotOR 2**, the resolution can look wrong on first launch — set it again in Options (e.g. 1080p).  
+   A small window will pop up. That is the **feeder** (another layer). Leave it.
+6. Open the ReShade menu (**Home**), go to **DLSS 5**, enable it and **neural rendering**.
+7. Done. Adjust it to your heart's content.
+
+Please note: **RTX 30 series and below will run very, very slow (around 1 FPS).**
 
 Download **one** zip from [Releases](https://github.com/TheChadSurvivor/TCS-DLSSV-PART2/releases):
 
 | Zip | GPU |
 | --- | --- |
 | `TCS K1-2 DLSS5 RTX 40 and 50 GIT.zip` | RTX 40 / 50 — **use this** |
-| `TCS K1-2 DLSS5 RTX 30 GIT.zip` | RTX 30 — extreme lag, not recommended |
+| `TCS K1-2 DLSS5 RTX 30 GIT.zip` | RTX 30 — ~1 FPS, not recommended |
 
-Unzip, then copy everything **inside** `Move Inside Content to Game Folder - GitHub` into the folder that contains `swkotor.exe` / `swkotor2.exe` (same folder as `chitin.key`). Launch the game or `TCS_DLSS5.bat`.
-
-Home (overlay): Add-ons tab **TCS_DLSS5**. Enable **LUMENITE: Kernel 2.0** above **DLSS 5 Feed**.
+Unzip, then copy everything **inside** `Move Inside Content to Game Folder - GitHub` (the `contents`) into the folder that contains `swkotor.exe` / `swkotor2.exe`.
 
 Do not mix the two `nvngx_dlssnr.dll` files.
 
