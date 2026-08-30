@@ -1,13 +1,22 @@
 # TCS-DLSSV-PART2
 
+## Required
+
+1. **Part 1 (Nexus)** — this is Part 2. Get Part 1 from my profile first:  
+   https://www.nexusmods.com/profile/TheChadSurvivor
+2. **NVIDIA RTX 40 or 50 series** — RTX 30 (Ampere) has **extreme lag**. Use the 40/50 zip.
+3. **Install ReShade first** (OpenGL, add-on support), then this pack.
+
+---
+
 Stock *Star Wars: Knights of the Old Republic* (and K2) **OpenGL ReShade** pack for DLSS 5 neural rendering. Not reone.
 
 Download **one** zip from [Releases](https://github.com/TheChadSurvivor/TCS-DLSSV-PART2/releases):
 
 | Zip | GPU |
 | --- | --- |
-| `TCS K1-2 DLSS5 RTX 30 GIT.zip` | RTX 30 (Ampere), e.g. RTX 3060 |
-| `TCS K1-2 DLSS5 RTX 40 and 50 GIT.zip` | RTX 40 (Ada) and RTX 50 (Blackwell) |
+| `TCS K1-2 DLSS5 RTX 40 and 50 GIT.zip` | RTX 40 / 50 — **use this** |
+| `TCS K1-2 DLSS5 RTX 30 GIT.zip` | RTX 30 — extreme lag, not recommended |
 
 Unzip, then copy everything **inside** `Move Inside Content to Game Folder - GitHub` into the folder that contains `swkotor.exe` / `swkotor2.exe` (same folder as `chitin.key`). Launch the game or `TCS_DLSS5.bat`.
 
