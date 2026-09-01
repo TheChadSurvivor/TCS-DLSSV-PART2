@@ -32,7 +32,7 @@ Download **one** zip from [Releases](https://github.com/TheChadSurvivor/TCS-DLSS
 | Zip | GPU |
 | --- | --- |
 | `TCS K1-2 DLSS5 RTX 40 and 50 GIT.zip` | RTX 40 / 50 — **use this** |
-| `TCS K1-2 DLSS5 RTX 30 GIT.zip` | RTX 30 — ~1 FPS, not recommended |
+| `TCS K1-2 DLSS5 RTX 30 GIT.zip` | RTX 30 — Slow |
 
 Unzip, then copy everything **inside** `Move Inside Content to Game Folder - GitHub` (the `contents`) into the folder that contains `swkotor.exe` / `swkotor2.exe`.
 
