@@ -4,7 +4,7 @@
 
 1. **ReShade with add-on support**, and a decent NVIDIA GPU (**RTX 50 series highly recommended**).
 2. **Part 1** from my Nexus profile: https://www.nexusmods.com/profile/TheChadSurvivor
-3. **RTX 40 or 50 series** — RTX 30 and below run at about **1 FPS**.
+3. **RTX 40 or 50 series** — RTX 30 and below runs slow
 
 ---
 
