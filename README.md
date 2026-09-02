@@ -20,12 +20,14 @@ Stock *Star Wars: Knights of the Old Republic* (and K2) **OpenGL ReShade** pack 
 4. Install **Part 2**. Choose the pack for your card and drop the contents inside **"Move Inside Content to Game Folder"** into your game folder.
 5. Run the game. For **KotOR 2**, the resolution can look wrong at first: set it again in Options (e.g. 1080p).  
    A small window will pop up. That is the **feeder** (another layer). Leave it.
-6. Open the ReShade menu (Home Key), go to addon tab , open the DLSS 5 tray , enable it and neural rendering.
+   
+6. Open the ReShade menu (Home Key), go to addon tab , open the DLSS 5 tray , enable it.
+7. Click show Dev Panel or Press N to access the TCS DEV CONTROLS PANEL
+8. Click the button enable DLSS5 and make Sure Feed is also enable 
+9. Then hit the dev panel "Applied" near the bottom
+10. Done. Adjust it to your heart's content.
 
-7. click the button under advance tray "Apply To The DLSS 5 to host" at the bottom
-
-8. Done. Adjust it to your heart's content.
-Please note: if you have a **30 series GPU or below**, this will run very, very slow (like **1 FPS**).
+Please note: if you have a **30 series GPU or below**, this will run slow.
 
 Download **one** zip from [Releases](https://github.com/TheChadSurvivor/TCS-DLSSV-PART2/releases):
 
