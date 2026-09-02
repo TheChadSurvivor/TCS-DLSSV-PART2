@@ -54,6 +54,8 @@ NVIDIA DLSS / NGX / Streamline binaries, ReShade, the RenoDX DLSS 5 add-on, and 
 
 D3D11↔D3D12 shared-texture / fence transport adapted from NIGos' [dlss5-dx11-bridge](https://github.com/NIGos/dlss5-dx11-bridge) (MIT) — not re-hosted here.
 
+Big Credit to:  mrcgibb9876 for his UI DLSS 5 DEV UI  OptiScaler_DLSSNR/images/dlss5ui at dlss5-developer-controls-ui · mrcgibb9876-hash/OptiScaler_DLSSNR
+
 Motion vectors: interop happens purely by declaring each provider's output texture identically, so ReShade binds the same resource — the mechanism dh_uber_rt and VORT use. Thanks to [LumeniteFX](https://github.com/umar-afzaal/LumeniteFX) (Umar Afzaal), iMMERSE Launchpad (MartysMods), VORT (MIT), Jakob Wapenhensch's [ReshadeMotionEstimation](https://github.com/JakobPCoder/ReshadeMotionEstimation) (CC BY-NC 4.0), the qUINT ecosystem that established the `texMotionVectors` convention, and [AlucardDH's dh-reshade-shaders](https://github.com/AlucardDH/dh-reshade-shaders) for the provider-switch pattern. No provider's files are bundled or included by this project's shader — install them from their own repositories, under their own licenses.
 
 DLSS 5 neural rendering: the RenoDX community's `renodx-dlss5` add-on.
